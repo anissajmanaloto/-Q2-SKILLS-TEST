@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+   <style>
+       body{
+           background-image: url(https://images.squarespace-cdn.com/content/v1/636b5e138fd7c9613e2a8b61/b5d157ee-eab4-4d7d-aba9-b1cbb78c32a6/OBMC+Primary+Classroom.jpg);
+           background-size: cover;
+           background-repeat: no-repeat
+       }
+
+       .container{
+        background-color: rgba(228, 228, 228, 0.90);
+
+       }
+   </style>
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+ <div class="container-fluid">
+
+   <a class="navbar-brand" href=""><img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/e01fd0f1-eda0-443b-ab56-74f748469f01/Header.png?format=1500w" alt="" class="" style="width: 200px;"></a>
+   <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+
+
+   <div class="collapse navbar-collapse" id="mynavbar">
+     <ul class="navbar-nav me-auto">
+       <li class="nav-item">
+         <a class="nav-link" href="page2.html">Home Page</a>
+       </li>
+
+
+       <li class="nav-item">
+         <a class="nav-link" href="page3.html">About Us</a>
+       </li>
+
+
+       <li class="nav-item">
+         <a class="nav-link" href="page4.html">Enroll</a>
+       </li>
+
+
+       <li class="nav-item">
+         <a class="nav-link" href="page5.html">Contact Us</a>
+       </li>
+
+
+     </ul>
+     <form class="d-flex">
+       <input class="form-control me-2" type="text" placeholder="Search">
+       <button class="btn btn-primary" type="button">Search</button>
+     </form>
+   </div>
+ </div>
+</nav>
+
+</div>
+
+
+<br><br>
+   
+   	<div class="container" id="rcaf">
+
+        <div class="text-center text-dark">
+   <p class="fw-bold display-4" style="padding-top: 30px;">Enrollment</p>
+		
+		<img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/8b5611eb-ff3a-407f-9adc-e116a23373fc/OBMC+LOGO+2024-04.png" 
+			style="
+			width: 100px;
+			height: auto;
+			border: solid 1px white;
+			border-radius: 100px;
+            text-align:center;" 
+            class="float-start">
+
+		<h5
+        style="
+        text-align:center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-size-adjust: 50px;">Welcome to OBMC Montessori! <br> Kindly fill everything out and submit your application. Thank you and we'll see you around!</h5>
+
+<br><br><br>
+
+	<form action="#">
+        <div class="row">
+            <div class="col">
+                <label for = "name">First Name</label>
+                <br> 
+                <input type="text" id="name" name="name" placeholder="Enter Name" required class="form-control">
+	        </div>
+
+            <div class="col">
+                <label for = "name">Last Name</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Enter Name" required class="form-control">
+             </div>
+
+        </div>
+
+
+		<br><br>
+
+		<label for = "email">Email</label>
+		<br>
+		<input type="email" id="email" name="email" placeholder="Enter Email" required class="form-control">
+		<br><br>
+
+        <label for = "Phone number">Phone number</label>
+		<br>
+		<input type="email" id="email" name="email" placeholder="Enter number.." required class="form-control">
+		<br><br>
+
+            <label for="skills">Skills</label>
+            <br>
+
+            <input type="checkbox" id="coding" name="skills" value="coding">
+            <label for="coding">CASA</label>
+            
+
+            <input type="checkbox" id="design" name="skills" value="design">
+            <label for="design">GRADE SCHOOL</label>
+            
+
+            <input type="checkbox" id="electronics" name="skills" value="electronics">
+            <label for="electronics">JUNIOR HIGH</label>
+            <br><br>
+
+            <input type="checkbox" id="electronics" name="skills" value="electronics">
+            <label for="electronics">SENIOR HIGH</label>
+            <br><br>
+
+
+        <label for="section">GRADE:</label>
+		<br>
+		<select id="section" name="section" required class="form-control">
+			<option value="none">Select</option>
+			<option value="e">7</option>
+			<option value="r">8</option>
+			<option value="s">9</option>
+			<option value="t">10</option>
+		</select>
+		<br><br>
+
+		<label for="reason">Feedback</label>
+		<br>
+		<textarea id="reason" name="reason" rows="5" cols="100" placeholder="..." required></textarea class="form-control">
+		<br><br>
+
+        <div class="row";>
+        <div class="col"></div>
+		<input class="btn-xx" type="reset" name="cancel" id="cancelbutton" value="Cancel">
+		<br><br>
+        
+		<button class="btn-xx" type="submit" id="submitapplication" name="submit">Submit</button>
+        </div>
+        </div>
+
+	</form>
+
+	</div>
+  
+</body>
+</html>
